@@ -6,6 +6,8 @@ public class Practice {
 
         animal.size = "big boy";
 
+        animal.type = "big platypus"
+
     }
 
 }
