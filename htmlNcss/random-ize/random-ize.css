@@ -4,8 +4,23 @@ html, body {
     width: 100vw;
 }
 
+body {
+    color: #797979;
+    font-family: 'Lato', sans-serif, 'Open Sans';
+    padding: 0px !important;
+    margin: 0px !important;
+    font-size: 14px;
+}
+
 body, div, header {
     display: flex;
+}
+
+hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 1px solid #eee;
 }
 
 .flex-row {
@@ -28,7 +43,7 @@ body, div, header {
 }
 
 .container-width {
-    width: 80%;
+    width: 70%;
 }
 
 .full-height {
@@ -55,8 +70,16 @@ header {
 
 }
 
-.ize {
+.aquamarine {
     color: #48cfad;
+}
+
+.white {
+    color: white;
+}
+
+.grey {
+    color: grey;
 }
 
 .secondary-header {
@@ -82,6 +105,30 @@ header {
 
 .align-center {
     align-items: center;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.margin-vert {
+    margin: auto 0px;
+}
+
+.margin-horiz {
+    margin: 0px auto;
+}
+
+.top-margin {
+    margin-top: 50px;
 }
 
 .header-button {
