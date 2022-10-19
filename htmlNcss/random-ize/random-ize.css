@@ -1,0 +1,111 @@
+html, body {
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+}
+
+body, div, header {
+    display: flex;
+}
+
+.flex-row {
+    -moz-box-direction: row;
+    -webkit-box-direction: row;
+    -webkit-box-orient: horizontal;
+    -webkit-flex-direction: row;
+    -ms-flexbox-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+}
+.flex-col {
+    -moz-box-direction: column;
+    -webkit-box-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-flex-direction: column;
+    -ms-flexbox-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+
+.container-width {
+    width: 80%;
+}
+
+.full-height {
+    height: 100%;
+}
+
+.logo {
+    width: 150px;
+    height: 80px;
+}
+
+header {
+    min-height: 85px;
+    justify-content: center;
+}
+
+.header-text {
+    color: #777;
+    font-size: 30px;
+    font-weight: 100;
+    line-height: 30px;
+    margin-top: 30px;
+    padding: 0;
+
+}
+
+.ize {
+    color: #48cfad;
+}
+
+.secondary-header {
+    min-height: 85px;
+    background-color: #34495e;
+}
+
+.margin-left {
+    margin-left: auto;
+}
+
+.full-width {
+    width: 100%;
+}
+
+.half-width {
+    width: 50%;
+}
+
+.center {
+    justify-content: center;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.header-button {
+    width: 200px;
+    border-style: none;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.dropdown{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:column;
+}
+.dropdown > .dropdown-title{
+    /* put the height and width here! */
+}
+.dropdown > .dropdown-sub{
+    display: none;
+    z-index: 1;
+    flex-direction: column; /* or row */
+}
+.dropdown:hover > .dropdown-sub {
+    display: flex;
+}.dropdown:hover > .dropdown-sub  > .dropdown-option:hover{
+    background-color: #abcdef;
+}

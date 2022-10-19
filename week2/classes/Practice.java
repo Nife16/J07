@@ -2,11 +2,20 @@ public class Practice {
 
     public static void main(String[] args) {
 
-        Animal animal = new Animal(100, "platypus");
+        Polymorphism
 
-        animal.size = "big boy";
+        Animal platypus = new Animal(100, "platypus");
 
-        animal.type = "big platypus"
+        Animal dog = new Animal(10, "daschund");
+
+        Animal goose = new Animal(10, "AAFLAK");
+
+        platypus.setWeight(30);
+
+
+
+ 
+        Aniamal somethin = new Animal();
 
     }
 

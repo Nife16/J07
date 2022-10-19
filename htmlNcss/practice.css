@@ -1,0 +1,78 @@
+.flex-row {
+    -moz-box-direction: row;
+    -webkit-box-direction: row;
+    -webkit-box-orient: horizontal;
+    -webkit-flex-direction: row;
+    -ms-flexbox-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+}
+.flex-col {
+    -moz-box-direction: column;
+    -webkit-box-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-flex-direction: column;
+    -ms-flexbox-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+
+.content-center {
+    justify-content: center;
+}
+
+.margin-center-horiz {
+    margin: 0 auto;
+}
+
+div {
+    display: flex;
+}
+
+p {
+    color: magenta;
+}
+ 
+h1 {
+    color:limegreen;
+}
+
+a {
+    color: blue;
+}
+
+.dog {
+    background-color: firebrick;
+    color:lawngreen
+}
+
+.ital {
+    font-style: italic;
+}
+
+table {
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAulvodcU5cW9jJ2x7zsJpTjafdV5VoKIG-A&usqp=CAU');
+}
+
+#theNbutton {
+    border-radius: 50%;
+    border-color: red;
+    background-color: red;
+    height: 50px;
+    width: 50px;
+}
+
+#circle-button-link {
+    color:white;
+    font-size: 24px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+#boldText {
+    font-weight: 500;
+}
+
+#italicizedText {
+    font-style: italic;
+}
